@@ -1,0 +1,19 @@
+.Pokemon {
+  text-decoration: none;
+  color: #333;
+  .card {
+    transition: all 0.2s;
+  }
+  &:hover {
+    .card {
+      box-shadow: 0 3px 8px rgba(#000, 0.1);
+    }
+    text-decoration: none;
+  }
+  &_index {
+    color: #8f8f8f;
+    margin-right: 1rem;
+    width: 40px;
+    display: inline-block;
+  }
+}

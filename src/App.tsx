@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from 'Components/Header'
+import { AppContextProvider } from 'Context/AppContext'
+import Detail from 'Pages/Detail'
+import Main from 'Pages/Main'
+import MyPokemon from 'Pages/MyPokemon'
+import React from 'react'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import { Container } from 'reactstrap'
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <AppContextProvider>
+      <Router>
+        <Container>
+          <Header />
+          <Switch>
+            <Route path='/' exact>
+              <Main />
+            </Route>
+            <Route path='/pokemon/:id' exact>
+              <Detail />
+            </Route>
+            <Route path='/my-pokemons' exact>
+              <MyPokemon />
+            </Route>
+            <Route path='*'>
+              <div className='text-center mt-5'>
+                <h2>Page Not Found !</h2>
+                <p>
+                  Let's go back to <Link to='/'>home</Link>
+                </p>
+              </div>
+            </Route>
+          </Switch>
+        </Container>
+      </Router>
+    </AppContextProvider>
+  )
 }
 
-export default App;
+export default App
