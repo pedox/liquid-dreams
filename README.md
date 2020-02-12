@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For Challenge Purposes.
 
-[Checkout Demo](http://pedox.github.io/liquid-dreams)
+[Checkout Demo](http://pedox.github.io/liquid-dreams/)

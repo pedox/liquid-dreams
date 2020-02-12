@@ -10,7 +10,7 @@ import { Container } from 'reactstrap'
 const App = () => {
   return (
     <AppContextProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container>
           <Header />
           <Switch>
