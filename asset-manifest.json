@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/liquid-dreams/static/css/main.b696de58.chunk.css",
+    "main.js": "/liquid-dreams/static/js/main.4a2f51e1.chunk.js",
+    "main.js.map": "/liquid-dreams/static/js/main.4a2f51e1.chunk.js.map",
+    "runtime-main.js": "/liquid-dreams/static/js/runtime-main.901f1ff1.js",
+    "runtime-main.js.map": "/liquid-dreams/static/js/runtime-main.901f1ff1.js.map",
+    "static/js/2.d091dca5.chunk.js": "/liquid-dreams/static/js/2.d091dca5.chunk.js",
+    "static/js/2.d091dca5.chunk.js.map": "/liquid-dreams/static/js/2.d091dca5.chunk.js.map",
+    "index.html": "/liquid-dreams/index.html",
+    "precache-manifest.fb1e6cc067880b8e7578d37246c1c015.js": "/liquid-dreams/precache-manifest.fb1e6cc067880b8e7578d37246c1c015.js",
+    "service-worker.js": "/liquid-dreams/service-worker.js",
+    "static/css/main.b696de58.chunk.css.map": "/liquid-dreams/static/css/main.b696de58.chunk.css.map",
+    "static/js/2.d091dca5.chunk.js.LICENSE.txt": "/liquid-dreams/static/js/2.d091dca5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.901f1ff1.js",
+    "static/js/2.d091dca5.chunk.js",
+    "static/css/main.b696de58.chunk.css",
+    "static/js/main.4a2f51e1.chunk.js"
+  ]
+}
