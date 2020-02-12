@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/liquid-dreams/precache-manifest.fb1e6cc067880b8e7578d37246c1c015.js"
+  "/liquid-dreams/precache-manifest.a84d5fb1493dbcf1485e8613555c19a4.js"
 );
 
 self.addEventListener('message', (event) => {
